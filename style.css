@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    margin-bottom: 15px;
     padding: 0;
   }
   canvas {
@@ -27,3 +28,8 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+#mobile {
+  margin-bottom: 10px;
+}
+

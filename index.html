@@ -5,9 +5,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
     <title>TensorFlow Polynomial Project</title>
+    
 
   </head>
   <body>
@@ -24,6 +26,41 @@
    
     <button id="generateButton">Generate Point</button>
     <button id="stopButton">Stop Predictions</button>
+
+  
+
+    <p>You're crafting a mystical point generator that magically conjures points on a canvas at the click of a button. <br>
+      Each point, a dazzling star, dances around based on the precise angles and positions you control.<br>
+      Using TensorFlow.js, you're training a brainy model that not only predicts the movement of these stars but also learns from every click. <br>
+      Plus, you're building in some superpowers, like halting predictions with the press of a button and resetting the canvas to start fresh.
+
+      It's like creating a cosmic drawing tool with a splash of AI sorcery.</p>
+      <div id="mobile">
+      <h2>How to use the Point Generator on Mobile</h2>
+
+      
+        <b>Open the Webpage:</b> Access the site on your mobile browser.<br>
+        <b>Tap to Generate Points:</b> Tap anywhere on the canvas to start generating stars. <br>
+          Each tap adds a star to the canvas based on your touch position.<br>
+        <b>Train the Model:</b> Tap the "Generate Point" button to train the model based on the points you've created.<br>
+        <b>Stop Predictions:</b> Tap the "Stop Predictions" button if you want to halt the model's predictions.<br>
+        <b>Reset the Canvas:</b> Tap the "Reset Model" button to clear the canvas and start fresh with new points.<br>
+
+      <h2>How to use the Point Generator on Browser</h2>
+      
+      <b>Open the Webpage:</b> Open your preferred browser (Chrome, Firefox, Safari, etc.) and navigate to the point generator site.<br>
+      <b>Drag to Add More Points:</b>Click and drag your mouse around the canvas to continuously add more stars. Your movements will generate new points in real-time.<br>
+      
+
+      <h2>Additional Tips</h2>
+      
+        <b>Refresh:</b> If the canvas doesn't respond, try refreshing the page.<br>
+      
+    </div>
+
+    <footer>
+      <p><b>This project was made by Bunny Lee</b></p>
+    </footer>
     <script src="sketch.js"></script>
   </body>
 </html>
